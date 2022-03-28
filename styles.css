@@ -77,3 +77,13 @@ img {
     background-color: #ed1414;
 
 }
+@media (max-width:600px){
+   .container{
+       left: 15%;
+   }
+  }
+  @media (max-width:537px){
+    .container{
+        left: 11%;
+    }
+   }
