@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 181, 95);
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/27/20/55/arm-1284248_960_720.jpg);
+}
+.container {
+    height: 6rem;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 24%;
+    min-width: 450px;
+    transform: translate(-50px, -50px);
+    border-radius: 20px;
+}
+#Todo_list {
+    position: relative;
+    padding: 30px 20px;
+    background-color: #1cdbe0;
+}
+#add {
+    position: relative;
+    float: right;
+    height: 40px;
+    width: 20%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#todo {
+    position: relative;
+    height: 40px;
+    width: 75%;
+    padding: 12px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+#viewlist{
+    background-color: #1cdbe0;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+#taskname{
+    font-size: 29px;
+}
+.delete{
+    font-size: 11px;
+    cursor: pointer;
+  
+}
+img {
+    height: 2rem;
+    width: 2rem;
+    background-color: #1cdbe0;
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    height: 31px;
+    margin-top: 0px;
+    font-size: 29px;
+    background-color: #ed1414;
+
+}
