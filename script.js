@@ -21,5 +21,6 @@ document.querySelector('#add').onclick = function(){
                 this.parentNode.remove();
             }
         }
+         todo.value = '';
     }
 }
